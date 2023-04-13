@@ -6,3 +6,10 @@
     flex-wrap: wrap;
 }
 
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+
+
