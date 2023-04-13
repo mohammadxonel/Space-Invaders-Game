@@ -16,4 +16,8 @@ invader {
     border-radius: 10px;
 }
 
+.shooter {
+    background-color: rgb(0, 0, 0);
+}
+
 
