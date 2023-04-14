@@ -31,4 +31,12 @@ const alienInvaders = [
 
   draw()
 
+  function remove() {
+    for (let i = 0; i < alienInvaders.length; i++) {
+        square[alienInvaders[i]].classList.remove('invader')
+    }
+  }
+
+  square[currentShooterIndex].classList.add('shooter')
+
   
