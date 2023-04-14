@@ -8,3 +8,10 @@ let goingRight = true
 let aliensRemove = []
 let results = 0
 
+for (let i = 0; i < 225; i++) {
+    const square = document.createElement('div')
+    grid.appendChild(square)
+}
+
+const square = Array.from(document.querySelectorAll('.grid div'))
+
